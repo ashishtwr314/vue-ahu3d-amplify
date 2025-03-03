@@ -97,7 +97,6 @@ export default {
 </script>
 
 <template>
-  <div class="app">
     <div>
       <button
         class="button"
@@ -122,7 +121,7 @@ export default {
     <div>
       <JsonEditorVue v-model="jsonConfig" v-bind="{ mode: 'tree' }" />
     </div>
-  </div>
+
 </template>
 
 <style scoped>
